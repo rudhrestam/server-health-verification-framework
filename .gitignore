@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+report.json
+audit.log
