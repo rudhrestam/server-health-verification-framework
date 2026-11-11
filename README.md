@@ -1,5 +1,7 @@
 # Server Health Verification Framework (Demo)
 
+![CI](https://github.com/rudhrestam/server-health-verification-framework/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 After a fleet-wide reboot or patch cycle, someone has to prove every system actually came back healthy. Done by hand, that's hours of repetitive checking — and the checks that get skipped are the ones that matter. This demo shows the automation pattern: run every check, on every target, in parallel, and produce a report a human can trust.
 
 > This is a representative demo of patterns used in production systems, built with simulated targets and original code. It contains no employer code, data, hostnames, or internal details.
@@ -36,7 +38,7 @@ No dependencies — Python 3.10+ standard library only.
 
 ## Tech stack
 
-Python · concurrent.futures · JSON config · structured reporting / audit logging
+Python 3.10+ · concurrent.futures · JSON config · structured reporting / audit logging
 
 ## What it demonstrates
 
